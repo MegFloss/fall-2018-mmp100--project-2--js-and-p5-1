@@ -1,12 +1,14 @@
-+ const IMAGE_WIDTH = ;
-+ const IMAGE_WIDTH = ;
-Const
++ const IMAGE_WIDTH = 5' ;
++ const IMAGE_HEIGHT= 6';
++const eye_color = rgb (15,33,37);
+
 
 function setup() {
 createCanvas ( , );
 }
 
-function draw() {
+function draw(eye) {
+  ellipse (4,2,4)
 
 }
 function draw() {
