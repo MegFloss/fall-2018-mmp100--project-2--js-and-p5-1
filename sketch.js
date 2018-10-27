@@ -1,6 +1,6 @@
-+ const IMAGE_WIDTH = 5' ;
-+ const IMAGE_HEIGHT= 6';
-+const eye_color = rgb (15,33,37);
+const IMAGE_WIDTH = 5 ;
+const IMAGE_HEIGHT= 6;
+const eye_color = rgb (15,33,37);
 
 
 function setup() {
