@@ -1,0 +1,3 @@
+const IMAGE_WIDTH = 800;
+const IMAGE_HEIGHT = 600;
+
