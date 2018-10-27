@@ -7,3 +7,9 @@ function setup() {
       background (200);
    noLoop();
   }
+
+function draw() {
+  stroke(198, 157, 101);
+  line(182, 138, 216, 170, 244, 190);
+
+}
