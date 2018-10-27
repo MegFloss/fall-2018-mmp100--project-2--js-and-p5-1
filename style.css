@@ -1,0 +1,21 @@
+body {
+   background-color: black;
+   background-image: url('http://img.52jbj.com/uploads/allimg/150606/1-150606020950.jpg');
+   text-align: center;
+
+}
+
+h1 {
+   font-family: 'Abril Fatface', cursive;
+   font-size: 3rem;
+   text-align: center;
+   color: rgb(54, 0, 172);
+}
+
+h2 {
+   font-family: 'Montserrat Alternates', sans-serif;
+   font-size: 1.5rem;
+   margin-top: 20px;
+   text-align: center;
+   color: rgb(204, 0, 172);
+}
