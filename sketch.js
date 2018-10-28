@@ -9,7 +9,7 @@ function setup() {
   }
 
 function draw() {
-  fill(255, 204, 0);
+  fill(139, 106, 75);
 beginShape();
 curveVertex(195, 121);
 curveVertex(191, 120);
@@ -91,13 +91,6 @@ curveVertex(221, 135);
 curveVertex(195, 121);
 curveVertex(191, 120);
 curveVertex(188, 120);
-curveVertex();
-curveVertex();
-curveVertex();
-curveVertex();
-curveVertex();
-
-
 
 endShape();
 }
