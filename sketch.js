@@ -9,126 +9,95 @@ function setup() {
   }
 
 function draw() {
-  stroke(198, 157, 101);
-  line(195, 121, 191, 120);
+  fill(255, 204, 0);
+beginShape();
+curveVertex(195, 121);
+curveVertex(191, 120);
+curveVertex(188, 120);
+curveVertex(185, 121);
+curveVertex(182, 127);
+curveVertex(182, 135);
+curveVertex(187, 142);
+curveVertex(215, 168);
+curveVertex(248, 192);
+curveVertex(268, 204);
+curveVertex(274, 206);
+curveVertex(279, 205);
+curveVertex(288, 213);
+curveVertex(297, 218);
+curveVertex(303, 218);
+curveVertex(312, 217);
+curveVertex(322, 214);
+curveVertex(330, 214);
+curveVertex(336, 219);
+curveVertex(338, 224);
+curveVertex(334, 233);
+curveVertex(331, 247);
+curveVertex(335, 255);
+curveVertex(342, 272);
+curveVertex(343, 309);
+curveVertex(341, 328);
+curveVertex(343, 335);
+curveVertex(342, 361);
+curveVertex(348, 381);
+curveVertex(361, 401);
+curveVertex(373, 414);
+curveVertex(377, 433);
+curveVertex(376, 454);
+curveVertex(382, 469);
+curveVertex(397, 501);
+curveVertex(400, 508);
+curveVertex(413, 520);
+curveVertex(436, 519);
+curveVertex(449, 511);
+curveVertex(456, 498);
+curveVertex(459, 485);
+curveVertex(464,474);
+curveVertex(470, 471);
+curveVertex(474, 465);
+curveVertex(477, 465);
+curveVertex(478, 444);
+curveVertex(477, 433);
+curveVertex(472, 428);
+curveVertex(464, 413);
+curveVertex(462, 404);
+curveVertex(470, 364);
+curveVertex(474, 333);
+curveVertex(475, 297);
+curveVertex(474, 266);
+curveVertex(480, 264);
+curveVertex(491, 249);
+curveVertex(484, 228);
+curveVertex(474, 219);
+curveVertex(478, 208);
+curveVertex(487, 209);
+curveVertex(511, 207);
+curveVertex(560, 186);
+curveVertex(593, 161);
+curveVertex(625, 117);
+curveVertex(616, 108);
+curveVertex(605, 110);
+curveVertex(587, 122);
+curveVertex(517, 142);
+curveVertex(481, 153);
+curveVertex(452, 165);
+curveVertex(433, 166);
+curveVertex(406, 151);
+curveVertex(395, 149);
+curveVertex(381, 154);
+curveVertex(360, 166);
+curveVertex(271, 146);
+curveVertex(221, 135);
+curveVertex(195, 121);
+curveVertex(191, 120);
+curveVertex(188, 120);
+curveVertex();
+curveVertex();
+curveVertex();
+curveVertex();
+curveVertex();
 
-  stroke(198, 157, 101);
-  line(191, 120, 188, 120);
 
-  stroke(198, 157, 101);
-  line(188, 120, 185, 121);
 
-  stroke(198, 157, 101);
-  line(185, 121, 182, 127);
-
-  stroke(198, 157, 101);
-  line(182, 127, 182, 135);
-
-  stroke(198, 157, 101);
-  line(182, 135, 187, 142);
-
-  stroke(198, 157, 101);
-  line(187, 142, 215, 168);
-
-  stroke(198, 157, 101);
-  line(215, 168, 248, 192);
-
-  stroke(198, 157, 101);
-  line(248, 192, 268, 204);
-
-  stroke(198, 157, 101);
-  line(268, 204, 274, 206);
-
-  stroke(198, 157, 101);
-  line(274, 206, 279, 205);
-
-  stroke(198, 157, 101);
-  line(279, 205, 288, 213);
-
-  stroke(198, 157, 101);
-  line(288, 213, 297, 218);
-
-  stroke(198, 157, 101);
-  line(297, 218, 303, 218);
-
-  stroke(198, 157, 101);
-  line(303, 218, 312, 217);
-
-  stroke(198, 157, 101);
-  line(312, 217, 322, 214);
-
-  stroke(198, 157, 101);
-  line(322,214, 330, 214);
-
-  stroke(198, 157, 101);
-  line(330 ,214, 336, 219);
-
-  stroke(198, 157, 101);
-  line(336, 219, 338, 224);
-
-  stroke(198, 157, 101);
-  line(338, 224, 334, 233);
-
-  stroke(198, 157, 101);
-  line(334, 233, 331, 247);
-
-  stroke(198, 157, 101);
-  line(331, 247, 335, 255);
-
-  stroke(198, 157, 101);
-  line(335, 255, 342, 272);
-
-  stroke(198, 157, 101);
-  line(342,272, 343, 309);
-
-  stroke(198, 157, 101);
-  line(343, 309, 341, 328);
-
-  stroke(198, 157, 101);
-  line(341,328,343, 335);
-
-  stroke(198, 157, 101);
-  line(343, 335, 342, 361);
-
-  stroke(198, 157, 101);
-  line(342, 361, 348, 381);
-
-  stroke(198, 157, 101);
-  line(348, 381, 361, 401);
-
-  stroke(198, 157, 101);
-  line(361, 401, 373, 414);
-
-  stroke(198, 157, 101);
-  line(373, 414, 377, 433);
-
-  stroke(198, 157, 101);
-  line(377, 433, 376, 454);
-
-  stroke(198, 157, 101);
-  line(376, 454, 382,469);
-
-  stroke(198, 157, 101);
-  line(382, 469, 397, 501);
-
-  stroke(198, 157, 101);
-  line(397, 501, 400, 508);
-
-  stroke(198, 157, 101);
-  line(400, 508, 413, 520);
-
-  stroke(198, 157, 101);
-  line(413, 520, 436, 519);
-
-  stroke(198, 157, 101);
-  line(436, 519, 449, 511);
-
-  stroke(198, 157, 101);
-  line(449,511,456,498);
-
-  stroke(198, 157, 101);
-  line(456,498,459,485);
-
-  stroke(198, 157, 101);
-  line(459,485,464,474);
+endShape();
 }
