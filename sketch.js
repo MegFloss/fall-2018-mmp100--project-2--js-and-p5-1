@@ -53,7 +53,7 @@ function drawHead() {
   curveVertex(310, 222);
 
 
-  /* End the shape, which is required to complete the shape by the three vertices. */
+  /* End the shape. */
   endShape();
 }
 
@@ -75,7 +75,7 @@ function drawLeftEye() {
   curveVertex(400, 256);
   curveVertex(400, 256);
 
-  /* End the shape, which is required to complete the shape by the three vertices. */
+  /* End the shape. */
   endShape();
 }
 
@@ -105,7 +105,7 @@ function drawRightEyeShadow() {
   curveVertex(372, 278);
   curveVertex(372, 278);
 
-  /* End the shape, which is required to complete the shape by the three vertices. */
+  /* End the shape. */
   endShape();
 }
 
@@ -122,7 +122,7 @@ function drawRightPupil() {
   beginShape();
   ellipse(383, 293, 9);
 
-  /* End the shape, which is required to complete the shape by the three vertices. */
+  /* End the shape. */
   endShape();
 }
 
@@ -139,15 +139,46 @@ function drawInnerPupil() {
   beginShape();
   ellipse(384, 295, 4);
 
-  /* End the shape, which is required to complete the shape by the three vertices. */
+  /* End the shape. */
   endShape();
 }
 
 function drawRightEye() {
-  // Creates the right eye of the newt.
+  // Draws the right eye of the newt.
   drawRightEyeShadow();
   drawRightPupil();
   drawInnerPupil();
+}
+
+function drawBody() {
+  //Draws the body of the Newt.
+
+  /* Cancel the default black border around
+  the shape created by vertex. */
+  noStroke();
+
+  /*Color shape*/
+  fill(BASE_COLOR);
+  /* Begin the shape that will be created by the 12 vertices
+  Using the following curves.*/
+  beginShape();
+  curveVertex(313, 292);
+  curveVertex(313, 292);
+  curveVertex(257, 270);
+  curveVertex(181, 254);
+  curveVertex(117, 195);
+  curveVertex(114, 162);
+  curveVertex(152, 127);
+  curveVertex(170, 145);
+  curveVertex(192, 160);
+  curveVertex(216, 175);
+  curveVertex(256, 199);
+  curveVertex(290, 219);
+  curveVertex(310, 222);
+  curveVertex(310, 222);
+
+  /* End the shape. */
+  endShape();
 }
 
 function draw(){
@@ -155,5 +186,6 @@ function draw(){
      drawHead();
      drawLeftEye();
      drawRightEye();
+     drawBody();
 
 }
