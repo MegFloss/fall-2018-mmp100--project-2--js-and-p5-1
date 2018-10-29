@@ -2,7 +2,7 @@
 
 const IMAGE_WIDTH = 470;
 const IMAGE_HEIGHT = 370;
-const HEAD_COLOR = "#06511E";
+const BASE_COLOR = "#06511E";
 
 function setup() {
   // Setup code goes here. This function runs once.
@@ -37,7 +37,7 @@ function drawHead() {
   noStroke();
 
   /*Color head*/
-  fill(HEAD_COLOR);
+  fill(BASE_COLOR);
   /* Begin the shape that will be created by the five vertices
   Using the following curves.*/
   beginShape();
@@ -55,5 +55,7 @@ function drawHead() {
 }
 
 function draw(){
-     //drawHead();
+  //Draw the Newt's head.
+     drawHead();
+     
 }
