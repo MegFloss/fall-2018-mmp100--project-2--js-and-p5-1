@@ -54,8 +54,31 @@ function drawHead() {
   endShape();
 }
 
+function drawLeftEye() {
+  // Creates the head of the newt.
+  /* Cancel the default black border around
+  the shape created by vertex. */
+  noStroke();
+
+  /*Color head*/
+  fill(BASE_COLOR);
+  /* Begin the shape that will be created by the five vertices
+  Using the following curves.*/
+  beginShape();
+  curveVertex(382, 237);
+  curveVertex(382, 237);
+  curveVertex(388, 238);
+  curveVertex(398, 246);
+  curveVertex(400, 256);
+  curveVertex(400, 256);
+
+  /* End the shape, which is required to complete the shape by the three vertices. */
+  endShape();
+}
+
 function draw(){
   //Draw the Newt's head.
      drawHead();
-     
+     drawLeftEye();
+
 }
