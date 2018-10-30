@@ -12,7 +12,7 @@ function setup() {
 function draw() {
 
   ellipse(300,189,25)
-  fill('#15,#33,#37');
+
 
 
   beginShape()
