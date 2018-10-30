@@ -12,6 +12,7 @@ function setup() {
 function draw() {
 
   ellipse(300,189,25)
+  fill('#15,#33,#37');
 
 
   beginShape()
@@ -53,6 +54,7 @@ point(164,173);
 line(164,173,161,173);
 line(161,173,162,204);
 endShape();
+
 
 
 
