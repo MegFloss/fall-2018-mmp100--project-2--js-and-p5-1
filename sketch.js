@@ -16,7 +16,7 @@ function draw() {
 
 
   beginShape()
-
+stroke('#15,#33,#37');
   point(420,177);
   line(420,177,357,149);
   line(357,149,296,126);
