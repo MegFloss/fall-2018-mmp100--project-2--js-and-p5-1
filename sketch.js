@@ -1,7 +1,5 @@
 const IMAGE_WIDTH = 470;
 const IMAGE_HEIGHT = 370;
-const EYE_COLOR = ('#15,#33,#37');
-const EYE_DIAMETER = 22
 
 function setup() {
   createCanvas(IMAGE_WIDTH,IMAGE_HEIGHT);
@@ -10,6 +8,8 @@ function setup() {
 
 
 function draw() {
+stroke(198,157,101);
+fill('rgba(100%,0%,100%,0.5)');
 
   ellipse(300,189,25)
 
@@ -45,6 +45,7 @@ line(12,308,114,235);
 point(102,246);
 line(102,246,5,235);
 point(188,163);
+stroke('rgb(255,0,0)');
 line(188,163,186,163);
 line(186,163,180,201);
 point(176,166,);
