@@ -52,7 +52,7 @@ curveVertex(436, 519);
 curveVertex(449, 511);
 curveVertex(456, 498);
 curveVertex(459, 485);
-curveVertex(464,474);
+curveVertex(464, 474);
 curveVertex(470, 471);
 curveVertex(474, 465);
 curveVertex(477, 465);
