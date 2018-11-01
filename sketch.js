@@ -94,3 +94,9 @@ curveVertex(188, 120);
 
 endShape();
 }
+function draw() {
+    drawBody();
+    drawlEyes();
+    drawrEyes();
+
+}
