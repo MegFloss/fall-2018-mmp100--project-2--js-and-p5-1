@@ -96,6 +96,23 @@ curveVertex(188, 120);
 
 endShape();
 }
+
+function drawlEyes() {
+
+    fill(0, 0, 0);
+
+    beginShape();
+    curveVertex(353, 250);
+    curveVertex(365, 272);
+    curveVertex(357, 276);
+    curveVertex(353, 276);
+    curveVertex(349, 272);
+    curveVertex(347, 259);
+    curveVertex(353, 251);
+
+    endShape();
+}
+
 function draw() {
     drawBody();
     drawlEyes();
