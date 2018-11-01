@@ -8,7 +8,9 @@ function setup() {
    noLoop();
   }
 
-function draw() {
+
+
+function drawBody() {
   fill(139, 106, 75);
 beginShape();
 curveVertex(195, 121);
