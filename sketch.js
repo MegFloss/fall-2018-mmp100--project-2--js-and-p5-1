@@ -129,7 +129,7 @@ function drawrEyes() {
 
 function drawMouth() {
 
-    fill(0, 0, 0);
+    fill(188, 216, 240);
 
     beginShape();
     curveVertex(400, 431);
