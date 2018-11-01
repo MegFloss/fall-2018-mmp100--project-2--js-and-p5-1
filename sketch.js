@@ -161,10 +161,25 @@ function drawMouth() {
     endShape();
 }
 
+// function drawEar() {
+//
+//   fill(188, 216, 240);
+//
+//   beginShape();
+//   curveVertex(215, 145);
+//   curveVertex(314, 176);
+//   curveVertex(303, 198);
+//   curveVertex(145, 215);
+//
+//   endShape();
+//
+// }
+
 function draw() {
     drawBody();
     drawlEyes();
     drawrEyes();
     drawMouth();
+    // drawEar();
 
 }
