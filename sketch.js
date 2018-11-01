@@ -8,15 +8,11 @@ function setup() {
 
 
 function draw() {
-stroke(198,157,101);
-fill('rgba(100%,0%,100%,0.5)');
-
   ellipse(300,189,25)
-
-
-
+  stroke(198,157,101);
+  fill('rgba(100%,0%,100%,0.5)');
   beginShape()
-stroke('#15,#33,#37');
+  stroke('#15,#33,#37');
   point(420,177);
   line(420,177,357,149);
   line(357,149,296,126);
