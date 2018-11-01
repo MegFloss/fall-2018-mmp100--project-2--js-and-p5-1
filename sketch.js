@@ -127,10 +127,44 @@ function drawrEyes() {
     endShape();
 }
 
+function drawMouth() {
+
+    fill(0, 0, 0);
+
+    beginShape();
+    curveVertex(400, 431);
+    curveVertex(398, 441);
+    curveVertex(399, 448);
+    curveVertex(403, 454);
+    curveVertex(409, 459);
+    curveVertex(414, 461);
+    curveVertex(426, 462);
+    curveVertex(445, 460);
+    curveVertex(451, 451);
+    curveVertex(460, 450);
+    curveVertex(463, 441);
+    curveVertex(463, 434);
+    curveVertex(461, 427);
+    curveVertex(465, 439);
+    curveVertex(465, 448);
+    curveVertex(462, 458);
+    curveVertex(454, 465);
+    curveVertex(445, 470);
+    curveVertex(439, 472);
+    curveVertex(425, 473);
+    curveVertex(412, 471);
+    curveVertex(403, 465);
+    curveVertex(398, 465);
+    curveVertex(397, 448);
+    curveVertex(397, 443);
+    curveVertex(399, 431);
+    endShape();
+}
 
 function draw() {
     drawBody();
     drawlEyes();
     drawrEyes();
+    drawMouth();
 
 }
