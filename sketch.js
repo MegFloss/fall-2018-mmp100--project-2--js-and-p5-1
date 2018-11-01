@@ -113,6 +113,21 @@ function drawlEyes() {
     endShape();
 }
 
+function drawrEyes() {
+
+    fill(0, 0, 0);
+
+    beginShape();
+    curveVertex(354, 271);
+    curveVertex(465, 270);
+    curveVertex(472, 265);
+    curveVertex(475, 257);
+    curveVertex(470, 249);
+    curveVertex(466, 249);
+    endShape();
+}
+
+
 function draw() {
     drawBody();
     drawlEyes();
