@@ -12,6 +12,9 @@ function windowResized() {
 function draw() {
   fill('rgba(100%,0%,100%,0.5)');
   ellipse(300,189,25)
+  fill(51);
+  ellipse(400,200,03)
+
   stroke(198,157,101);
   strokeWeight(1);
   beginShape()
