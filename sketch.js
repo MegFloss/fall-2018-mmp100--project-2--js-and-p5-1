@@ -163,7 +163,7 @@ function drawMouth() {
 
 function drawEyeBallL() {
 
-  fill(188, 216, 240);
+  fill(212, 2, 2);
 
   beginShape();
   curveVertex(350, 268);
@@ -181,7 +181,7 @@ function drawEyeBallL() {
 
 function drawEyeBallR() {
 
-  fill(188, 216, 240);
+  fill(212, 2, 2);
 
   beginShape();
   curveVertex(468, 257);
