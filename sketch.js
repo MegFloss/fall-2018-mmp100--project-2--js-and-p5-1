@@ -161,25 +161,53 @@ function drawMouth() {
     endShape();
 }
 
-// function drawEar() {
-//
-//   fill(188, 216, 240);
-//
-//   beginShape();
-//   curveVertex(215, 145);
-//   curveVertex(314, 176);
-//   curveVertex(303, 198);
-//   curveVertex(145, 215);
-//
-//   endShape();
-//
-// }
+function drawEyeBallL() {
+
+  fill(188, 216, 240);
+
+  beginShape();
+  curveVertex(350, 268);
+  curveVertex(353, 266);
+  curveVertex(355, 267);
+  curveVertex(357, 269);
+  curveVertex(356, 271);
+  curveVertex(352, 272);
+  curveVertex(350, 270);
+
+
+  endShape();
+
+}
+
+function drawEyeBallR() {
+
+  fill(188, 216, 240);
+
+  beginShape();
+  curveVertex(468, 257);
+  curveVertex(471, 257);
+  curveVertex(473, 258);
+  curveVertex(472, 262);
+  curveVertex(469, 263);
+  curveVertex(468, 261);
+  curveVertex(468, 258);
+
+
+  endShape();
+
+}
+
+
+
+
 
 function draw() {
     drawBody();
     drawlEyes();
     drawrEyes();
     drawMouth();
-    // drawEar();
+    drawEyeBallL();
+    drawEyeBallR();
+
 
 }
