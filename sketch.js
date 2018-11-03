@@ -11,9 +11,6 @@ const SHADOW_COLOR = "#433532";
 function setup() {
   // Setup code goes here. This function runs once.
 
-  //Create a reference to the body element.
-  let body = document.getElementsByTagName(`body`)[0];
-
   // Create h1 and h2 elements
   let h1 = document.createElement(`h1`);
   let h2 = document.createElement(`h2`);
