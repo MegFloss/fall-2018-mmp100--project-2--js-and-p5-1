@@ -1,3 +1,19 @@
+window.onload = () => {
+    'use strict';
+    let body = document.getElementsByTagName(`body`)[0];
+    let h1 = document.createElement(`h1`);
+    let content = document.createTextNode(`Tiger Shark also known as Galeocerdo Cuvier`);
+    let h2 = document.createElement(`h2`);
+    let content = document.createTextNode(`Tonya McPhearson`);
+    h1.appendChild(content);
+    body.appendChild(h1);
+    h2.appendChild(content);
+    body.appendChild(h2);
+};
+
+
+
+
 const IMAGE_WIDTH = 470;
 const IMAGE_HEIGHT = 370;
 
