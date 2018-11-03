@@ -24,9 +24,13 @@ function draw(){
   bezier(349,268,408,243,409,243,478,280);
   curve(478,285,522,256,525,256,499,218);
   bezier(499,218,453,640,7,500,325,485);
+  bezierDetail(30);
   curveTightness(21);
   fill(104,54,44);
 smooth();
+ellipse(375, 345, 55, 55);
 noSmooth();
 ellipse(475, 345, 55,55);
+}
+document.write("<h1>Buffalo</h1>");
 document.write("<h2>AcerliaBennett</h2>");
