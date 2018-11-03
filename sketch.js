@@ -3,7 +3,7 @@ const windowWidth = 1050;
 const windowHeight = 1050;
 function setup(){
 createCanvas(windowWidth, windowHeight);
-background(128,128,128);
+background(129,129,129);
 }
 
 
