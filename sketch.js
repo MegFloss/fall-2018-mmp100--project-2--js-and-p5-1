@@ -159,5 +159,35 @@ stroke(0, 0, 255);
 line(448,180,467,183);
 
 //THIS IS WHERE THE LOWER BEAK BEGINS
+stroke(0, 0, 255);
+line(467,183,453,183);
 
+stroke(0, 0, 255);
+line(453,183,432,179);
+
+stroke(0, 0, 255);
+line(432,179,356,166);
+
+stroke(0, 0, 255);
+line(356,166,328,165);
+
+stroke(0, 0, 255);
+line(328,165,299,168);
+
+stroke(0, 0, 255);
+line(299,168,297,172);
+
+stroke(0, 0, 255);
+line(297,172,334,175);
+
+stroke(0, 0, 255);
+line(334,175,356,177);
+
+stroke(0, 0, 255);
+line(356,177,405,184);
+
+stroke(0, 0, 255);
+line(405,184,460,198);
+
+//NOW WE GO FOR THE EYES
 }
