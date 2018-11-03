@@ -10,25 +10,22 @@ const EAR_COLOR = `#FFB6C1`;
 
 function setup(){
 
-// NOTE: still need to fix header in here :(
+
+      let body = document.getElementsByTagName(`body`)[0];
 
 
+      let h1 = document.createElement(`h1`);
+      let h2 = document.createElement(`h2`);
 
-    //let body = document.getElementsByTagName('body')[0];
-
-  //  let h1 = document.createElement('h1');
-  //  let h2 = document.createElement('h2');
-
-  //  let name = document.createTextNode('Rodolfo Ramiro Rivera')
-  //  let animal = document.createTextNode('Rabbit')
-
-  //  h1.appendchild(animal);
-  //  h2.appendchild(animal);
-  //  body.appendchild(h1);
-  //  body.appendchild(h2);
+      let animal = document.createTextNode(`Rabbit`);
+      let name = document.createTextNode(`Rodolfo Ramiro Rivera`);
 
 
+      h1.appendChild(animal);
+      h2.appendChild(name);
 
+      body.appendChild(h1);
+      body.appendChild(h2);
 
 
     createCanvas(IMAGE_WIDTH, IMAGE_HEIGHT);
